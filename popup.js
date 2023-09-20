@@ -25,6 +25,7 @@ function getImageInfo() {
     resolutionDiv.style.color = 'white';
     resolutionDiv.style.fontSize = '13px';
     resolutionDiv.style.zIndex = "999";
+    resolutionDiv.style.fontWeight = "bold";
 
     image.parentNode.style.position = 'relative';
     image.parentNode.appendChild(resolutionDiv);
