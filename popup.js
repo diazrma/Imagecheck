@@ -23,7 +23,8 @@ function getImageInfo() {
     resolutionDiv.style.padding = '2px';
     resolutionDiv.style.background = 'red';
     resolutionDiv.style.color = 'white';
-    resolutionDiv.style.fontSize = '12px';
+    resolutionDiv.style.fontSize = '13px';
+    resolutionDiv.style.zIndex = "999";
 
     image.parentNode.style.position = 'relative';
     image.parentNode.appendChild(resolutionDiv);
